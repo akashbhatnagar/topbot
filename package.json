@@ -1,0 +1,34 @@
+{
+  "name": "topbot",
+  "version": "0.1.0",
+  "description": "Node.js application that serves webhook for Facebook Messenger API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashbhatnagar/topbot.git"
+  },
+  "keywords": [
+    "fb messenger",
+    "facebook",
+    "messenger",
+    "bot"
+  ],
+  "author": "akashbhatnagar@hotmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akashbhatnagar/topbot/issues"
+  },
+  "homepage": "https://github.com/akashbhatnagar/topbot#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "glob": "^7.0.3",
+    "request": "^2.72.0",
+    "underscore": "^1.8.3",
+    "weather-js": "^1.0.2",
+    "axios": "^0.14.0"
+  }
+}
